@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro.eot");
+  src: url("../fonts/MyriadPro.eot?iefix") format("eot"), url("../fonts/MyriadPro.woff") format("woff"), url("../fonts/MyriadPro.ttf") format("truetype"), url("../fonts/MyriadPro.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*ABOUT*/
+.about {
+  display: flow-root;
+  height: 700px;
+  background: linear-gradient(to left, #ff0000, #fb6f05);
+  /* .about__info */
+  /* .about__paragraph */
+  /* .about__title */
+  /*about__text*/
+  /* .about__plan */
+  /* .about__items */
+  /* .about__item */
+  /* .about__name */
+  /* .about__stick */
+  /* .about__date */
+  /* .about__images */
+  /* .about__numbers */
+  /* .about__block */
+  /* .about__num */
+  /* .about__words */
+}
+.about__info {
+  margin-top: 30px;
+  height: 375px;
+}
+.about__paragraph {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.about__title {
+  font-size: 60px;
+}
+.about__text {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 17px;
+  font-family: 'MyriadPro', monospace, 'Arial', sans-serif;
+}
+.about__plan {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+}
+.about__items {
+  z-index: 500;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.about__item {
+  text-align: center;
+}
+.about__name {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.about__stick {
+  width: 175px;
+  height: 7px;
+  transform-origin: 0 100%;
+  transform: skew(-40deg);
+  background: linear-gradient(to right, #ff0000, #fb6f05);
+  display: block;
+}
+.about__date {
+  font-weight: 600;
+}
+.about__images {
+  display: flex;
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 92%;
+  justify-content: flex-start;
+}
+.about__img {
+  margin-top: -24px;
+  margin-right: 200px;
+}
+.about__numbers {
+  margin-top: 45px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+.about__block {
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  font-size: 26px;
+}
+.about__num {
+  font-size: 70px;
+}
+
+/*PERSONS*/
+.persons {
+  padding-bottom: 80px;
+  display: flow-root;
+  /* .persons__title1 */
+  /* .persons__title2 */
+  /* .persons__change */
+  /* .persons__change-item */
+  /* .persons__name */
+  /* .persons__title */
+  /* .persons__news */
+  /* .persons__news-item */
+  /* .persons__date */
+  /*persons__img*/
+  /* .persons__news-title */
+}
+.persons__title1 {
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.persons__title2 {
+  font-size: 35px;
+  text-align: center;
+  color: #fb6f05;
+  margin-top: 25px;
+}
+.persons__change {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.persons__name {
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+}
+.persons__title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.persons__news {
+  display: flex;
+  justify-content: space-around;
+}
+.persons__news-item {
+  text-align: center;
+}
+.persons__date {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.persons__img {
+  margin: 0 auto;
+  text-align: center;
+}
+.persons__news-title {
+  font-size: 18px;
+}

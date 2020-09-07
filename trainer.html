@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Регистрация</title>
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/registration.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" href="fontawesome/css/v4-shims.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<header class="header" style="background-image: url(img/bg4.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+			<a href="#" class="header__burger">
+				<span class="header__stick"></span>
+			</a>
+		
+			<div class="header__top">
+				<div class="container header__top-position">
+					<a href="index.html">
+						<div class="header__logo">
+							<div class="header__logo-name">Викторина</div>
+							<img src="img/logo.png" alt="">
+						</div>
+					</a>
+					<nav class="header__nav">
+						<ul class="header__menu-list">
+							<li class="header__menu-links">
+								<a href="#">О проекте</a>
+							</li>
+							<li class="header__menu-links header__metod">
+								<a href="methodical.html">Метод указания</a>
+								<span class="arrow menu__arrow"></span>
+								<ul class="header__sub-menu-list">
+									<li><a href="#">Видео</a></li>
+									<li><a href="documents.html">Учебные материалы</a></li>
+								</ul>
+							</li>
+							<li class="header__menu-links">
+								<a href="viktorina.html">Викторина</a>
+							</li>
+							<li class="header__menu-links">
+								<a href="news.html">Новости</a>
+							</li>
+							<li class="header__menu-links">
+								<a href="#">Галерея</a>
+							</li>
+							<li class="header__menu-links">
+								<a href="contact.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__buttons">
+						<a href="registration.html"><div class="header__button reg">Регистрация</div></a>
+						<a href="login.html"><div class="header__button vhod">Вход</div></a>
+					</div>
+					<div class="header__inscription">Грант Президента <br> Российской Федерации</div>
+				</div>
+			</div>
+			<div class="header__title container">
+				<h2>Войти в личный кабинет</h2>
+				<h5>Воспользуйтесь вашим аккаунтом или создвйте новый</h5>
+			</div>
+		</div>
+	</header>
+
+	<section class="red ">
+		<div class="red__panel container">
+			<a href="#">На главную</a>
+			<h6>/</h6>
+			<a href="#">Регистрация</a>
+		</div>
+	</section>
+
+	<section class="registration">
+		<div class="container">
+                <div class="container-fluid">
+                    <form class="defaultform row" method="post" action="/register/done1">
+                    <input type="hidden" name="do" value="register">
+                    <input type="hidden" name="role" value="master">
+                        <div class="col-md-6">
+                            <div class="register-widget clearfix">
+                                <div class="widget-title">
+                                    <h3>Регистрация в качестве тренера (для преподавателя)</h3>
+                                    <hr>
+                                </div><!-- end title -->
+                                <div class="row">
+                                    <div class="form-group col-lg-12">
+                                        <label>Фамилия*</label>
+                                        <input type="text" name="name1" required="required" pattern="^[А-Яа-яЁё\s]+$" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Имя*</label>
+                                        <input type="text" name="name2" required="required" pattern="^[А-Яа-яЁё\s]+$" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Отчество</label>
+                                        <input type="text" name="name3" pattern="^[А-Яа-яЁё\s]+$" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Полное наименование учебного заведения*</label>
+                                        <input type="text" name="school" required="required" pattern="^[А-Яа-яЁё\s]+$" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Курируемые Вами классы*</label>
+                                        <input type="text" name="class" required="required" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Регион/Субьект*</label>
+                                        <select name="rf_subject" required="required" class="form-control">
+                                        <option value="1">Алтайский край</option><option value="2">Амурская область</option><option value="3">Архангельская область</option><option value="4">Астраханская область </option><option value="5">Белгородская область </option><option value="6">Брянская область </option><option value="7">Владимирская область</option><option value="8">Волгоградская область </option><option value="9">Вологодская область</option><option value="10">Воронежская область</option><option value="11">Еврейская автономная область</option><option value="12">Забайкальский край</option><option value="13">Ивановская область</option><option value="14">Иркутская область</option><option value="15">Кабардино-Балкарская Республика</option><option value="16">Калининградская область</option><option value="17">Калужская область</option><option value="18">Камчатский край</option><option value="19">Карачаево-Черкесская Республика</option><option value="20">Кемеровская область</option><option value="21">Кировская область</option><option value="22">Костромская область</option><option value="23">Краснодарский край</option><option value="24">Красноярский край</option><option value="25">Курганская область</option><option value="26">Курская область </option><option value="27">Ленинградская область </option><option value="28">Липецкая область </option><option value="29">Магаданская область</option><option value="30">Москва</option><option value="31">Московская область</option><option value="32">Мурманская область</option><option value="33">Ненецкий автономный округ</option><option value="34">Нижегородская область </option><option value="35">Новгородская область</option><option value="36">Новосибирская область</option><option value="37">Омская область</option><option value="38">Оренбургская область </option><option value="39">Орловская область </option><option value="40">Пензенская область</option><option value="41">Пермский край</option><option value="42">Приморский край</option><option value="43">Псковская область</option><option value="44">Республика Адыгея (Адыгея)</option><option value="45">Республика Алтай</option><option value="46">Республика Башкортостан</option><option value="47">Республика Бурятия</option><option value="48">Республика Дагестан</option><option value="49">Республика Ингушетия</option><option value="50">Республика Калмыкия</option><option value="51">Республика Карелия</option><option value="52">Республика Коми</option><option value="53">Республика Марий Эл</option><option value="54">Республика Мордовия</option><option value="55">Республика Саха (Якутия)</option><option value="56">Республика Северная Осетия (Алания)</option><option value="57">Республика Татарстан (Татарстан) </option><option value="58">Республика Тыва (Тува)</option><option value="59">Республика Хакасия</option><option value="60">Ростовская область</option><option value="61">Рязанская область</option><option value="62">Самарская область </option><option value="63">Санкт-Петербург</option><option value="64">Саратовская область </option><option value="65">Сахалинская область</option><option value="66">Свердловская область</option><option value="67">Смоленская область</option><option value="68">Ставропольский край</option><option value="69">Тамбовская область </option><option value="70">Тверская область</option><option value="71">Томская область</option><option value="72">Тульская область</option><option value="73">Тюменская область</option><option value="74">Удмуртская Республика</option><option value="75">Ульяновская область</option><option value="76">Хабаровский край</option><option value="77">Ханты-Мансийский автономный округ - Югра</option><option value="78">Челябинская область</option><option value="79">Чеченская Республика</option><option value="80">Чувашская Республика</option><option value="81">Чукотский автономный округ</option><option value="82">Ямало-Ненецкий автономный округ</option><option value="83">Ярославская область</option><option value="84">Республика Крым</option><option value="85">Севастополь</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Тип населенного пункта*</label>
+                                        <select name="citytype" required="required" class="form-control">
+                                        <option value="10">городское поселение</option><option value="9">сельское поселение</option><option value="8">хутор</option><option value="7">станица</option><option value="6">районный центр</option><option value="5">деревня</option><option value="4">аул</option><option value="3">село</option><option value="2">поселок</option><option value="1">город</option><option value="11">поселок городского типа</option><option value="12">рабочий поселок</option><option value="13">другое</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Населенный пункт*</label>
+                                        <input type="text" name="city" required="required" pattern="^[А-Яа-яЁё\s]+$" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Номер телефона*</label>
+                                        <input type="tel" name="phone" required="required" placeholder="+71234567891" class="form-control" pattern="[\+]\d{11}" minlength="12" maxlength="12">
+                                    </div>
+                                    <div class="form-group col-lg-6">
+                                        <label>Email Address*</label>
+                                        <input type="email" name="email" required="required" class="form-control">
+                                    </div>          
+                                    <div class="col-sm-12">
+
+                                        <div class="checkbox checkbox-primary">
+                                            <input id="checkbox_qu_02" type="checkbox" required="required" class="styled">
+                                            <label for="checkbox_qu_02">
+                                                 Согласие на обработку персональных данных согласно ФЗ-152
+                                            </label>
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="reg_but">Регистрация</button>
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6 m30">
+                            <div class="about-widget clearfix">
+                                <div class="widget-title">
+                                    <h3>Правила и Соглашения</h3>
+                                    <hr>
+                                </div><!-- end title -->
+                                <p>Нажимая зарегистрироваться Вы безоговорочно принимаете все условия участия</p>
+                                <p>Регистрируясь и предоставляя свои персональные данные, вы соглашаетесь на их обработку в соответствии с ФЗ-152</p>                                
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- end container -->
+        </div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__flex">
+				<nav class="footer__nav">
+					<ul>
+						<li>
+							<a href="#">Документы</a>
+						</li>
+						<li>
+							<a href="#">Метод указания</a>
+						</li>
+						<li>
+							<a href="#">Викторина</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li>
+							<a href="#">Войти в кабинет</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="footer__links">
+					<div class="footer__item">
+						<li>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<a href="#">TWITTER</a>
+						</li>
+					</div>
+					<div class="footer__item">
+						<li>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<a href="#">FACEBOOK</a>
+						</li>
+					</div>
+					<div class="footer__item">
+						<li>
+							<i class="fa fa-vk" aria-hidden="true"></i>
+							<a href="#">ВКОНТАКТЕ</a>
+						</li>
+					</div>
+					<div class="footer__item">
+						<li>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<a href="#">INSTAGRAM</a>
+						</li>
+					</div>
+				</div>
+				<div class="footer__reg">
+					<p>Регистрация участников.</p>
+					<a class="footer__button" href="#">Зарегистрироваться</a>
+				</div>
+			</div>
+			
+			<div class="footer__line"></div>
+
+			<div class="footer__copyright">
+				<h4>
+					ВСЕ ПРАВА ЗАЩИЩЕНЫ © 2019 ВИКТОРИНА | ПО ФИНАНСОВОЙ МАТЕМАТИКЕ,<br>
+					ФИНАНСОВОЙ ГРАМОТНОСТИ И ЦИФРОВЫМ ФИНАНСОВЫМ ТЕХНОЛОГИЯМ
+				</h4>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
